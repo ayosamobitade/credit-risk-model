@@ -91,9 +91,11 @@ python src/data_cleaning.py
 ```bash
 python src/feature_engineering.py
 ```
-Train models (Logistic Regression & XGBoost) and save the best model:
-
-    python src/model_training.py
+4. Train models (Logistic Regression & XGBoost) and save the best model:
+```bash
+python src/model_training.py
+```
+---
 
 ## 🔍 Model Explainability
 To visualize SHAP and LIME explanations:
