@@ -54,3 +54,13 @@ credit-risk-model/
 ├── .gitignore
 └── setup.py
 ```
+
+---
+
+## 🔧 Setup Instructions
+
+### **1. Clone the Repository**
+```bash
+git clone https://github.com/yourusername/credit-risk-model.git
+cd credit-risk-model
+```
