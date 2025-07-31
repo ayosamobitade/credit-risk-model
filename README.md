@@ -64,3 +64,14 @@ credit-risk-model/
 git clone https://github.com/yourusername/credit-risk-model.git
 cd credit-risk-model
 ```
+### **2. Create a Virtual Environment**
+```bash
+python -m venv venv
+source venv/bin/activate   # For Linux/Mac
+venv\Scripts\activate      # For Windows
+```
+
+### **3. Install Dependencies**
+```bash
+pip install -r app/requirements.txt
+```
