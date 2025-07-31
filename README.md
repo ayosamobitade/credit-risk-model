@@ -18,3 +18,39 @@ A **Streamlit web application** is included for real-time predictions.
 ---
 
 ## 📂 Project Structure
+```
+credit-risk-model/
+│
+├── data/
+│ ├── raw/
+│ │ └── loan_data.csv
+│ └── processed/
+│ ├── credit_data_cleaned.csv
+│ └── credit_data_features.csv
+│
+├── notebooks/
+│ ├── 01_data_exploration.ipynb
+│ ├── 02_feature_engineering.ipynb
+│ └── 03_model_evaluation.ipynb
+│
+├── src/
+│ ├── init.py
+│ ├── data_cleaning.py
+│ ├── feature_engineering.py
+│ ├── model_training.py
+│ ├── explainability.py
+│ └── predict.py
+│
+├── app/
+│ ├── streamlit_app.py
+│ ├── model.pkl
+│ └── requirements.txt
+│
+├── tests/
+│ └── test_credit_model.py
+│
+├── README.md
+├── LICENSE
+├── .gitignore
+└── setup.py
+```
