@@ -78,17 +78,19 @@ pip install -r app/requirements.txt
 ---
 
 ## 🏋️ Training the Model
+1. Ensure your raw dataset is in `data/raw/loan_data.csv`.
 
-    Ensure your raw dataset is in data/raw/loan_data.csv.
+2. Clean data:
 
-    Clean data:
-
+```bash
 python src/data_cleaning.py
+```
 
-Perform feature engineering:
+3. Perform feature engineering:
 
+```bash
 python src/feature_engineering.py
-
+```
 Train models (Logistic Regression & XGBoost) and save the best model:
 
     python src/model_training.py
