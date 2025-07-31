@@ -93,12 +93,11 @@ Train models (Logistic Regression & XGBoost) and save the best model:
 
     python src/model_training.py
 
-🔍 Model Explainability
-
+## 🔍 Model Explainability
 To visualize SHAP and LIME explanations:
-
+```bash
 python src/explainability.py
-
+```
 ---
 
 ## 🌐 Running the Streamlit App
