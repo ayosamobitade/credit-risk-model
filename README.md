@@ -75,3 +75,62 @@ venv\Scripts\activate      # For Windows
 ```bash
 pip install -r app/requirements.txt
 ```
+---
+
+## 🏋️ Training the Model
+
+    Ensure your raw dataset is in data/raw/loan_data.csv.
+
+    Clean data:
+
+python src/data_cleaning.py
+
+Perform feature engineering:
+
+python src/feature_engineering.py
+
+Train models (Logistic Regression & XGBoost) and save the best model:
+
+    python src/model_training.py
+
+🔍 Model Explainability
+
+To visualize SHAP and LIME explanations:
+
+python src/explainability.py
+
+---
+
+## 🌐 Running the Streamlit App
+```bash
+streamlit run app/streamlit_app.py
+```
+
+The app will open in your browser at `http://localhost:8501`.
+
+---
+
+## ✅ Running Tests
+```bash
+pytest tests/test_credit_model.py
+```
+---
+
+## 📊 Example Prediction
+
+To test predictions using `predict.py`:
+```bash
+python src/predict.py
+```
+---
+
+## 📜 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+---
+
+## ✨ Future Improvements
+- Add deep learning models for better performance.
+- Integrate with a real-time credit application API.
+- Expand feature engineering with alternative credit scoring features.
